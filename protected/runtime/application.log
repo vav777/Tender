@@ -1,0 +1,610 @@
+2012/06/05 23:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\tendernew\core\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\tendernew\core\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\tendernew\core\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tendernew\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tendernew/index.php?r=gii
+---
+2012/06/05 23:22:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\tendernew\core\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\tendernew\core\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\tendernew\core\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tendernew\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tendernew/index.php?r=gii
+---
+2012/06/05 23:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giic".' in C:\xampp\htdocs\tendernew\core\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\tendernew\core\web\CWebApplication.php(135): CWebApplication->runController('giic')
+#1 C:\xampp\htdocs\tendernew\core\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tendernew\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tendernew/index.php?r=giic
+---
+2012/06/05 23:24:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\tendernew\core\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\tendernew\core\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\tendernew\core\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tendernew\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tendernew/index.php?r=gii
+---
+2012/06/05 23:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\tendernew\core\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\tendernew\core\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\tendernew\core\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tendernew\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tendernew/index.php?r=gii
+---
+2012/06/25 19:17:18 [error] [php] require_once(site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:17:20 [error] [php] require_once(site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:17:21 [error] [php] require_once(site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:17:40 [error] [php] require_once(../site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:17:41 [error] [php] require_once(../site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:17:58 [error] [php] require_once(../site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:19:31 [error] [php] require_once(../site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:19:44 [error] [php] require_once(/../site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 19:19:45 [error] [php] require_once(/../site/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(207): CContentDecorator->run()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(301): SiteController->endWidget()
+#6 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(16): SiteController->endContent()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): SiteController->renderInternal()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): SiteController->renderFile()
+#10 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#17 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\main.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (16)
+2012/06/25 21:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('news')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('news')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('site/news')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/news
+HTTP_REFERER=http://tender.loc/index.php?r=site/index
+---
+2012/06/25 21:53:07 [error] [php] Undefined variable: model (E:\xampp\htdocs\Sites\tender.loc\protected\views\site\login.php:24)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(870): SiteController->renderFile()
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(783): SiteController->renderPartial()
+#2 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php(39): SiteController->render()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(50): SiteController->actionNews()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(287): SiteController->runAction()
+#6 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): SiteController->runActionWithFilters()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): SiteController->run()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/news
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\site\login.php (24)
+in E:\xampp\htdocs\Sites\tender.loc\protected\controllers\SiteController.php (39)
+in E:\xampp\htdocs\Sites\tender.loc\index.php (13)
+2012/06/25 23:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php:280
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2012/06/25 23:23:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('view')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/view/1')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/view/1
+---
+2012/06/25 23:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view?id=1".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('view?id=1')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view?id=1')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/view?id=1')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/view?id=1
+---
+2012/06/25 23:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/create
+---
+2012/06/25 23:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create
+---
+2012/06/25 23:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create
+---
+2012/06/25 23:25:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create
+---
+2012/06/25 23:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create
+---
+2012/06/25 23:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create
+---
+2012/06/25 23:25:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create
+---
+2012/06/25 23:26:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create
+---
+2012/06/25 23:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create.php".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create.php')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create.php')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/create.php')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/create.php
+---
+2012/06/25 23:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/create
+---
+2012/06/25 23:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('login')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('login')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2012/06/25 23:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('login')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('login')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/login')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/login
+---
+2012/06/25 23:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "vire".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('vire')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('vire')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/vire')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/vire
+---
+2012/06/25 23:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('view')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/view')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/view
+---
+2012/06/25 23:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "creat".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('creat')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('creat')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/creat')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/creat
+---
+2012/06/25 23:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('create')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('create')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/create')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=users/create
+---
+2012/06/26 00:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:484
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(271): CController->missingAction('view')
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('profiles/view')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=profiles/view
+---
+2012/06/26 00:20:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:337
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilter.php(41): CFilterChain->run()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(292): CFilterChain->run()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view')
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/view')
+#10 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=users/view
+---
+2012/06/26 00:49:45 [error] [php] Undefined variable: model (E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php:5)
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): UsersController->renderFile()
+#1 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\UsersController.php(55): UsersController->render()
+#2 unknown(0): UsersController->actionView()
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#5 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams()
+#6 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(134): UsersController->runAction()
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(1146): CAccessControlFilter->filter()
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CInlineFilter.php(59): UsersController->filterAccessControl()
+#10 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(292): CFilterChain->run()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): UsersController->runActionWithFilters()
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): UsersController->run()
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=users/view&id=1
+in E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php (5)
+in E:\xampp\htdocs\Sites\tender.loc\protected\controllers\UsersController.php (55)
+in E:\xampp\htdocs\Sites\tender.loc\index.php (13)
+2012/06/26 00:50:13 [error] [exception.CException] exception 'CException' with message 'UsersController cannot find the requested view "left_sidebar".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:879
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(5): CController->renderPartial('left_sidebar', Array)
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require('E:\xampp\htdocs...')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#4 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\UsersController.php(55): CController->render('view', Array)
+#5 [internal function]: UsersController->actionView('1')
+#6 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilter.php(41): CFilterChain->run()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(292): CFilterChain->run()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view')
+#17 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/view')
+#18 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#19 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=users/view&id=1
+HTTP_REFERER=http://tender.loc/index.php?r=users/index
+---
+2012/06/26 00:52:13 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "renderPartial".' in E:\xampp\htdocs\Sites\tender.loc\core\base\CComponent.php:266
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(5): CComponent->__call('renderPartial', Array)
+#1 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(5): CWebApplication->renderPartial('left_sidebar', Array)
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require('E:\xampp\htdocs...')
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#4 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#5 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\UsersController.php(55): CController->render('view', Array)
+#6 [internal function]: UsersController->actionView('1')
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilter.php(41): CFilterChain->run()
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(292): CFilterChain->run()
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view')
+#18 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/view')
+#19 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#20 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=users/view&id=1
+HTTP_REFERER=http://tender.loc/index.php?r=users/index
+---
+2012/06/26 00:52:32 [error] [exception.CException] exception 'CException' with message 'UsersController cannot find the requested view "left_sidebar".' in E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php:879
+Stack trace:
+#0 E:\xampp\htdocs\Sites\tender.loc\protected\views\layouts\basic.php(5): CController->renderPartial('left_sidebar', Array)
+#1 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(127): require('E:\xampp\htdocs...')
+#2 E:\xampp\htdocs\Sites\tender.loc\core\web\CBaseController.php(96): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#3 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(785): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#4 E:\xampp\htdocs\Sites\tender.loc\protected\controllers\UsersController.php(55): CController->render('view', Array)
+#5 [internal function]: UsersController->actionView('1')
+#6 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 E:\xampp\htdocs\Sites\tender.loc\core\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#8 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilter.php(41): CFilterChain->run()
+#11 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 E:\xampp\htdocs\Sites\tender.loc\core\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(292): CFilterChain->run()
+#15 E:\xampp\htdocs\Sites\tender.loc\core\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(276): CController->run('view')
+#17 E:\xampp\htdocs\Sites\tender.loc\core\web\CWebApplication.php(135): CWebApplication->runController('users/view')
+#18 E:\xampp\htdocs\Sites\tender.loc\core\base\CApplication.php(162): CWebApplication->processRequest()
+#19 E:\xampp\htdocs\Sites\tender.loc\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=users/view&id=1
+HTTP_REFERER=http://tender.loc/index.php?r=users/index
+---
